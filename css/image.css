@@ -3,25 +3,39 @@
 	height: 100%;
 	width: 100%;
 }
-.Bild2{
-	margin-top: 20%;
+.Bilder{
+	margin-top: 10%;
 	height: 100%;
 	width: 100%;
 }
+
 .T1{
-	padding-top: 0%;
+	padding-top: 10%;
+
   }
- .T21{
- 	padding-top: ;
- 	max-width: 20%;
+ .T2{
+ 	padding-top: 5%;
+ 	text-align: center;	
  }
- .T22{
+ .T{
+ 	padding-top:5%;
  	max-width: 20%;
+ 	float: left;
+ 	margin-left: 10%;
  }
- .T23{
- 	max-width: 20%;
+ .R1{
+ 	margin-left:25%;
  }
+
 body{
 	background-color: #222222;
+	color: white;
+	font-family: 'Roboto', cursive;
+	font-size: 18px;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
  }
 }
