@@ -8,15 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <title>Simple WoW Guides</title>
 
-
-    <title>Dank</title>
-
-    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="icon" type="image/png" href="bilder/icon.png">
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
     <!-- Custom CSS -->
     <link href="css/logo-nav.css" rel="stylesheet">
@@ -28,7 +27,16 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <script type="text/javascript">
+    	$(document).ready(function(){
+  			$("a").click(function(e) {
+    			e.preventDefault();
+    			$('html, body').animate({
+      				scrollTop: $($.attr(this, 'href')).offset().top
+    			}, 1000);
+  			});
+		});
+    </script>
 </head>
 
 <body>
@@ -64,7 +72,7 @@
                     	<a href="#Spider">Elerethe Renfreral</a>
                     </li>
                      <li>
-                    	<a href="#Eye">Il'gynoth</a>
+                    	<a href="#Eye" id="eye">Il'gynoth</a>
                     </li>
                      <li>
                     	<a href="#Cen">Cenarius</a>
@@ -81,7 +89,7 @@
 
     <!-- Page Content -->
     <div>
-    	<img class="Bild1" src="bilder/Bild.png">
+    	<img class="Bild1" src="bilder/Bild0.png">
     </div>
     <div class="container">
         <div class="row">
@@ -89,7 +97,7 @@
              <div class="T1"> 
               <div class="T2" id="About"><h1>About</h1></div>
                <p>
-                This is a "Simplistic Guide To The Emerald Nightmare" for you who might not know about the general tactics or is experienced but not in all roles. You ccould use this as an example when you lead a "PUG" group and want to make sure people know what they are going to do to minimalize the risk of your raid failing. The guide contains The general thought procces and tactitcs for everyone. Positions on where to put up markers for differnet bosses. Tank swaps and stacks depending on the gear of your group. Healers priorites when to use cooldowns, what to dispell and when.
+                This is Simple WoW Guides a "Simplistic Guide To The Emerald Nightmare" for you who might not know about the general tactics or is experienced but not in all roles. You could use this as an example when you lead a "PUG" group and want to make sure people know what they are going to do to minimalize the risk of your raid failing. The guide contains The general thought procces and tactitcs for everyone. Positions on where to put up markers for differnet bosses. Tank swaps and stacks depending on the gear of your group. Healers priorites when to use cooldowns, what to dispell and when.
                </p>
              </div>   
             </div>
